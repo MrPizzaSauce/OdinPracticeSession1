@@ -1,3 +1,9 @@
+html{
+    background-color: lightblue
+}
+
+
+
 h2,
 h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -10,6 +16,8 @@ section{
     margin-right: 50px;
     font-family: 'Courier New', Courier, monospace;
     background-color: aliceblue;
+    border: 2px solid cadetblue;
+
 }
 
 p{
@@ -20,10 +28,15 @@ p{
 }
 img{
     float: left;
-    width: 300px;
+    width: 250px;
     height: 300px;
     object-fit: cover;
-    padding-left: 50px;
-    padding-right: 30px;
+    padding-top: 10px;
+    padding-left: 20px;
+    
+ }
 
+hr{
+    color: cadetblue;
+    border: 2px solid cadetblue;
 }
